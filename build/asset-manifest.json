@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4d85ef96.css",
+    "main.js": "/static/js/main.19aeb30a.js",
+    "static/media/about.gif": "/static/media/about.ab0487e54c94027c4365.gif",
+    "static/media/zombie.jpg": "/static/media/zombie.efe4a7fd51a89f42ef0a.jpg",
+    "static/media/fitnessApp.jpg": "/static/media/fitnessApp.7bc4e5cc7cbcfbb0f2ad.jpg",
+    "static/media/hero.gif": "/static/media/hero.c7a7155b568723044107.gif",
+    "static/media/Roboto-Regular.ttf": "/static/media/Roboto-Regular.f25bd05915c1a3468d3d.ttf",
+    "static/media/black-jack.jpg": "/static/media/black-jack.a151cb177d90b05ab215.jpg",
+    "static/media/raag.jpg": "/static/media/raag.c83ab392a85e2870d143.jpg",
+    "static/media/ticket-desk.png": "/static/media/ticket-desk.0e9dea752b68af7b0000.png",
+    "static/media/logo.svg": "/static/media/logo.aad4f9d6045f0d3a55c9ec27798c1ac9.svg",
+    "index.html": "/index.html",
+    "main.4d85ef96.css.map": "/static/css/main.4d85ef96.css.map",
+    "main.19aeb30a.js.map": "/static/js/main.19aeb30a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4d85ef96.css",
+    "static/js/main.19aeb30a.js"
+  ]
+}
