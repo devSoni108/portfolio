@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/static/css/main.bace8453.css",
-    "main.js": "/static/js/main.7a4701ec.js",
-    "static/media/about.gif": "/static/media/about.ab0487e54c94027c4365.gif",
+    "main.css": "/static/css/main.42f12fcc.css",
+    "main.js": "/static/js/main.c819bd92.js",
     "static/media/raag.jpg": "/static/media/raag.b17a607c95f656b90644.jpg",
+    "static/media/about.gif": "/static/media/about.5ff763b21b0615083945.gif",
     "static/media/hero.gif": "/static/media/hero.c7a7155b568723044107.gif",
     "static/media/zombie.jpg": "/static/media/zombie.93c4a0ff495435fed8ca.jpg",
     "static/media/fitnessApp.jpg": "/static/media/fitnessApp.bb5aa9de73cf45c585f0.jpg",
@@ -12,11 +12,11 @@
     "static/media/ticket-desk.jpg": "/static/media/ticket-desk.d1d2af9b0520ac354763.jpg",
     "static/media/logo.svg": "/static/media/logo.aad4f9d6045f0d3a55c9ec27798c1ac9.svg",
     "index.html": "/index.html",
-    "main.bace8453.css.map": "/static/css/main.bace8453.css.map",
-    "main.7a4701ec.js.map": "/static/js/main.7a4701ec.js.map"
+    "main.42f12fcc.css.map": "/static/css/main.42f12fcc.css.map",
+    "main.c819bd92.js.map": "/static/js/main.c819bd92.js.map"
   },
   "entrypoints": [
-    "static/css/main.bace8453.css",
-    "static/js/main.7a4701ec.js"
+    "static/css/main.42f12fcc.css",
+    "static/js/main.c819bd92.js"
   ]
 }
