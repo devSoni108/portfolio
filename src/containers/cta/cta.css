@@ -1,0 +1,86 @@
+.hs__cta {
+    padding: 2rem;
+    margin: 4rem;
+    border-radius: 1rem;
+    background: var(--gradient-bar);
+    text-align: center;
+}
+
+.hs__cta-content p {
+    font-family: var(--font-family);
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #0e0e0e;
+    padding-bottom: 0.5rem;
+}
+
+.hs__cta-content h3 {
+    font-family: 'Paytone One';
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 42px;
+    color: #0e0e0e;
+    padding-bottom: 1rem;
+}
+
+.hs__cta-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2rem;
+    padding-bottom: 1rem;
+}
+
+.hs__cta-btn button {
+    background: #000000;
+    color: #ffffff;
+    border-radius: 40px;
+    font-family: var(--font-family);
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 30px;
+    padding: 0.5rem 1rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    min-width: 150px;
+}
+
+.hs__cta-btn input {
+    border-radius: 40px;
+    padding: 0.9rem 1rem;
+    width: 22rem;
+    margin-right: -2.8rem;
+}
+
+.hs__cta-social {
+    padding-bottom: 1rem;
+}
+
+@media screen and (max-width: 650px) {
+    .hs__cta {
+        flex-direction: column;
+    }
+
+    .hs__cta-btn {
+        margin: 2rem 0 0;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .hs__cta {
+        margin: 4rem 2rem;
+    }
+
+    .hs__cta-content h3 {
+        font-size: 18px;
+        line-height: 32px;
+    }
+
+    .hs__cta-btn button {
+        font-size: 14px;
+        line-height: 28px;
+    }
+}
