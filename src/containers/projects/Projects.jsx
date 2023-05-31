@@ -1,6 +1,6 @@
 import React from 'react';
 import { Article, Modal } from '../../components';
-import { fitnessApp, zombie, ticketDesk, raag } from './imports';
+import { fitnessApp, zombie, ticketDesk, machinery } from './imports';
 import './projects.css';  
 
 const Projects = () => {
@@ -20,6 +20,18 @@ const Projects = () => {
               <div className="hs__projects-container_article-content">
                 <a href="https://github.com/devSoni108/only-fitness" target="_blank"><p>View Code</p></a>
                 <a href="https://only-fitness.netlify.app/" target="_blank"><p>View Application</p></a>
+              </div>
+            </div>
+          </div>
+          <div className="hs__projects-container_groupA">
+            <div className="hs__projects-container_project">
+              <Article imgUrl={machinery} 
+                title="GTC Africa"
+                tools="NextJs | Tailwind"
+                description="GTC Africa is a prominent specialist in drivetrain components, and hydraulic pumps and motors. View their website to learn more." />
+              <div className="hs__projects-container_article-content">
+                <a href="https://github.com/devSoni108/gtc-africa" target="_blank"><p>View Code</p></a>
+                <a href="https://gtccomponents.co.za/" target="_blank"><p>View Website</p></a>
               </div>
             </div>
           </div>
@@ -47,7 +59,7 @@ const Projects = () => {
               </div>
             </div>
           </div>
-          <div className="hs__projects-container_groupA">
+          {/* <div className="hs__projects-container_groupA">
             <div className="hs__projects-container_project">
               <Article imgUrl={raag} 
               title="Open AI Raag App"
@@ -58,7 +70,7 @@ const Projects = () => {
                 <a><p>Coming Soon</p></a>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
