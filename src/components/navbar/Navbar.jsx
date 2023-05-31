@@ -22,7 +22,7 @@ const [toggleMenu, setToggleMenu] = useState(false);
     <div className="hs__navbar" id="home">
       <div className="hs__navbar-links">
         <div className="hs__navbar-links_logo">
-          <a href=""><img src={logo} alt="logo"/></a>
+          <a href="home"><img src={logo} alt="logo"/></a>
         </div>
         <div className="hs__navbar-links_container">
           <Menu />

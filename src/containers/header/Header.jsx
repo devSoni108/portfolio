@@ -15,7 +15,7 @@ const Header = () => {
       </div>
 
       <div className="hs__header-image">
-        <img src={hero} />
+        <img src={hero} alt='creative robot gif'/>
       </div>
     </div>
   )

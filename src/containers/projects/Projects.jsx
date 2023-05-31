@@ -54,8 +54,8 @@ const Projects = () => {
               tools="Python | OpenAI"
               description="Discover the Magic of Hindustani Classical Music: Explore raags and taals with ease using our powerful web based application." />
               <div className="hs__projects-container_article-content">
-                <a target=""><p>Project Ongoing</p></a>
-                <a target=""><p>Coming Soon</p></a>
+                <a><p>Project Ongoing</p></a>
+                <a><p>Coming Soon</p></a>
               </div>
             </div>
           </div>
