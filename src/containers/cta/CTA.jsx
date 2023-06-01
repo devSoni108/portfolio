@@ -7,7 +7,7 @@ import github from '../../assets/github-blx.png';
 
 const CTA = () => {
   return (
-    <div>
+    <>
       <div className="hs__cta" id="contact">
         <div className="hs__cta-content">
           <h3>Get in touch today & start<br />exploring the endless possibilities</h3>
@@ -27,7 +27,7 @@ const CTA = () => {
           <p>Email: soni.hiren108@gmail.com</p>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 
