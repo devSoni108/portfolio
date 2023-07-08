@@ -1,6 +1,6 @@
 import React from 'react';
 import { Article, Modal } from '../../components';
-import { fitnessApp, zombie, ticketDesk, machinery } from './imports';
+import { fitnessApp, zombie, ticketDesk, machinery, trailer, weed } from './imports';
 import './projects.css';
 
 const Projects = () => {
@@ -14,14 +14,28 @@ const Projects = () => {
           <div className="hs__projects-container_groupA">
             <div className="hs__projects-container_project">
               <Article
-                imgUrl={fitnessApp}
-                title="Only Fitness"
-                tools="ReactJS | Materiel UI"
-                description="Fast track your fitness journey with this easy to use fitness app. View exercises by target muscle or equipment."
+                imgUrl={trailer}
+                title="Teddy Trailers"
+                tools="ReactJS | CSS"
+                description="Teddy Trailers is a renowned trailer manufacturer, crafting bespoke trailers and food trucks. With a strong presence from South Africa to Malawi, our reach extends across the African continent."
               />
               <div className="hs__projects-container_article-content">
-                <a href="https://github.com/devSoni108/only-fitness" target="_blank" rel="noreferrer"><p>View Code</p></a>
-                <a href="https://only-fitness.netlify.app/" target="_blank" rel="noreferrer"><p>View Application</p></a>
+                <a href="https://github.com/devSoni108/teddy-trailers" target="_blank" rel="noreferrer"><p>View Code</p></a>
+                <a href="https://teddytrailers.co.za/" target="_blank" rel="noreferrer"><p>View Application</p></a>
+              </div>
+            </div>
+          </div>
+          <div className="hs__projects-container_groupA">
+            <div className="hs__projects-container_project">
+              <Article
+                imgUrl={weed}
+                title="Weed Club"
+                tools="NextJs | Tailwind"
+                description="Weed Club is a premium cannabis supplier, offering an exclusive selection of top-tier bud, delectable edibles, and high-quality accessories. Our curated inventory is available exclusively to our members."
+              />
+              <div className="hs__projects-container_article-content">
+                <a href="https://github.com/devSoni108/greenleaf-club" target="_blank" rel="noreferrer"><p>View Code</p></a>
+                <a href="https://weedclub.africa/" target="_blank" rel="noreferrer"><p>View Application</p></a>
               </div>
             </div>
           </div>
@@ -64,6 +78,20 @@ const Projects = () => {
               <div className="hs__projects-container_article-content">
                 <a href="https://github.com/devSoni108/run-doggo" target="_blank" rel="noreferrer"><p>View Code</p></a>
                 <a href="https://run-doggo.netlify.app/" target="_blank" rel="noreferrer"><p>Play Game Using Keyboard</p></a>
+              </div>
+            </div>
+          </div>
+          <div className="hs__projects-container_groupA">
+            <div className="hs__projects-container_project">
+              <Article
+                imgUrl={fitnessApp}
+                title="Only Fitness"
+                tools="ReactJS | Materiel UI"
+                description="Fast track your fitness journey with this easy to use fitness app. View exercises by target muscle or equipment."
+              />
+              <div className="hs__projects-container_article-content">
+                <a href="https://github.com/devSoni108/only-fitness" target="_blank" rel="noreferrer"><p>View Code</p></a>
+                <a href="https://only-fitness.netlify.app/" target="_blank" rel="noreferrer"><p>View Application</p></a>
               </div>
             </div>
           </div>
