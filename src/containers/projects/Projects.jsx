@@ -28,14 +28,14 @@ const Projects = () => {
           <div className="hs__projects-container_groupA">
             <div className="hs__projects-container_project">
               <Article
-                imgUrl={weed}
-                title="Weed Club"
+                imgUrl={security}
+                title="AS247 Security"
                 tools="NextJs | Tailwind"
-                description="Weed Club is a premium cannabis supplier, offering an exclusive selection of top-tier bud, delectable edibles, and high-quality accessories. Our curated inventory is available exclusively to our members."
+                description="AS247 Security is a comprehensive security solutions provider specializing in offering a range of services including CCTV systems, alarm systems, and other security technologies. "
               />
               <div className="hs__projects-container_article-content">
-                <a href="https://github.com/devSoni108/greenleaf-club" target="_blank" rel="noreferrer"><p>View Code</p></a>
-                <a href="https://weedclub.africa/" target="_blank" rel="noreferrer"><p>View Application</p></a>
+                <a href="https://github.com/devSoni108/as247" target="_blank" rel="noreferrer"><p>View Code</p></a>
+                <a href="https://as247security.co.za/" target="_blank" rel="noreferrer"><p>View Application</p></a>
               </div>
             </div>
           </div>
