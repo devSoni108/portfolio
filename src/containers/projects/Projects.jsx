@@ -1,6 +1,6 @@
 import React from 'react';
 import { Article, Modal } from '../../components';
-import { fitnessApp, zombie, ticketDesk, machinery, trailer, weed } from './imports';
+import { fitnessApp, zombie, ticketDesk, machinery, trailer, security } from './imports';
 import './projects.css';
 
 const Projects = () => {
